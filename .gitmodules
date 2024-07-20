@@ -4,3 +4,6 @@
 [submodule "models/dygiepp"]
 	path = models/dygiepp
 	url = https://github.com/Suyash-A/dygiepp.git
+[submodule "models/chexpert-labeler"]
+	path = models/chexpert-labeler
+	url = git@github.com:Suyash-A/chexpert-labeler.git
