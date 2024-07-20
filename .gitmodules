@@ -1,3 +1,6 @@
 [submodule "models/RadGraph"]
 	path = models/RadGraph
 	url = https://github.com/Suyash-A/RadGraph.git
+[submodule "models/dygiepp"]
+	path = models/dygiepp
+	url = https://github.com/Suyash-A/dygiepp.git
