@@ -7,3 +7,6 @@
 [submodule "models/chexpert-labeler"]
 	path = models/chexpert-labeler
 	url = git@github.com:Suyash-A/chexpert-labeler.git
+[submodule "models/mimic-cxr"]
+	path = models/mimic-cxr
+	url = git@github.com:Suyash-A/mimic-cxr.git
