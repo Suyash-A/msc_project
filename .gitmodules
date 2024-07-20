@@ -10,3 +10,6 @@
 [submodule "models/mimic-cxr"]
 	path = models/mimic-cxr
 	url = git@github.com:Suyash-A/mimic-cxr.git
+[submodule "models/CheXbert"]
+	path = models/CheXbert
+	url = git@github.com:Suyash-A/CheXbert.git
