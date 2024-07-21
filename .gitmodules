@@ -13,3 +13,6 @@
 [submodule "models/CheXbert"]
 	path = models/CheXbert
 	url = git@github.com:Suyash-A/CheXbert.git
+[submodule "data_msc_project"]
+	path = data_msc_project
+	url = git@github.com:Suyash-A/data_msc_project.git
