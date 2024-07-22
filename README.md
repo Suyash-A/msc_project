@@ -58,6 +58,8 @@
 ## Generating input data
 ### Filtering out the test data
 ``` ./scripts/run_test_set_destinations.sh```
+### Storing test data reports in categorised csv
+``` ./scripts/run_test_set_reports.sh```
 ### Generating input data for CheXbert
 ``` ./scripts/run_generate_input_chexbert.sh```
 ### Generating input data for CheXpert
