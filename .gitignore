@@ -1,2 +1,3 @@
 # The chexbert model file
 models/CheXbert/model_path/chexbert.pth
+src/data/__pycache__
