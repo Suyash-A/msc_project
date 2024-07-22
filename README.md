@@ -10,7 +10,25 @@
 │   ├── eval_set
 │   │   └── test-set-destinations.csv
 │   └── physionet.org
-│       └── files
+│       └── files
+│           ├── mimic-cxr
+│           │   └── 2.0.0
+│           │       ├── cxr-study-list.csv
+│           │       ├── files
+│           │       │   ├── p10
+│           │       │   ├── p11
+│           │       │   ├── p12
+│           │       │   ├── p13
+│           │       │   ├── p14
+│           │       │   ├── p15
+│           │       │   ├── p16
+│           │       │   ├── p17
+│           │       │   ├── p18
+│           │       │   └── p19
+│           │       └── mimic-cxr-reports.zip
+│           └── mimic-cxr-jpg
+│               └── 2.1.0
+│                   └── mimic-cxr-2.1.0-test-set-labeled.csv
 ├── models
 │   ├── CheXbert
 │   │   └── ...
@@ -44,4 +62,19 @@
 ``` ./scripts/run_generate_input_chexbert.sh```
 ### Generating input data for CheXpert
 ``` ./scripts/run_generate_input_chexpert.sh```
+
+## Running the models
+### CheXpert
+1. Install and create the conda environment
+
+``` conda env create -f models/mimic-cxr/txt/chexpert/environment.yml```
+
+2. Activate the conda environment
+
+``` conda activate chexpert-mimic-cxr```
+
+3. Run the CheXpert model script, where NUMBER_OF_RUNS is the number of runs you want to perform.
+
+``` ./scripts/run_chexpert.sh NUMBER_OF_RUNS``` 
+
 
