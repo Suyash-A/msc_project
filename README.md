@@ -77,4 +77,23 @@
 
 ``` ./scripts/run_chexpert.sh NUMBER_OF_RUNS``` 
 
+4. Deactivate the conda environment
 
+``` conda deactivate```
+
+### CheXbert
+1. Install and create the conda environment
+
+``` conda env create -f models/chexbert/environment.yml```
+
+2. Activate the conda environment
+
+``` conda activate chexbert```
+
+3. Run the CheXbert model script, where NUMBER_OF_RUNS is the number of runs you want to perform.
+
+``` ./scripts/run_chexbert.sh NUMBER_OF_RUNS```
+
+4. Deactivate the conda environment
+
+``` conda deactivate```
