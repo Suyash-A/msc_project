@@ -18,7 +18,7 @@ NUM_RUNS=$1
 for ((i=1; i<=NUM_RUNS; i++))
 do
     OUTPUT_FILE="${OUTPUT_PATH}/chexpert_labeled_${i}.csv"
-    python $CHEXPERT_PATH/label.py --verbose --reports_path $REPORT_PATH --output_path $OUTPUT_FILE --mention_phrases_dir $CHEXPERT_PATH/phrases/unmention --pre_negation_uncertainty_path $CHEXPERT_PATH/patterns/pre_negation_uncertainty.txt --negation_path $CHEXPERT_PATH/patterns/negation.txt --post_negation_uncertainty_path $CHEXPERT_PATH/patterns/post_negation_uncertainty.txt
+    python $CHEXPERT_PATH/label.py --verbose --reports_path $REPORT_PATH --output_path $OUTPUT_FILE --mention_phrases_dir $CHEXPERT_PATH/phrases/mention --unmention_phrases_dir $CHEXPERT_PATH/phrases/unmention --pre_negation_uncertainty_path $CHEXPERT_PATH/patterns/pre_negation_uncertainty.txt --negation_path $CHEXPERT_PATH/patterns/negation.txt --post_negation_uncertainty_path $CHEXPERT_PATH/patterns/post_negation_uncertainty.txt
     echo "Run $i completed. Output saved to $OUTPUT_FILE."
 done
 
