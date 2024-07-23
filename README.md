@@ -99,3 +99,7 @@
 4. Deactivate the conda environment
 
 ``` conda deactivate```
+
+## Evaluation
+### Generate ordered list of test set study ids
+``` ./scripts/run_ordereded_test_ids.sh```
