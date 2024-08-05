@@ -16,3 +16,6 @@
 [submodule "data_msc_project"]
 	path = data_msc_project
 	url = git@github.com:Suyash-A/data_msc_project.git
+[submodule "models/VisualCheXbert"]
+	path = models/VisualCheXbert
+	url = https://github.com/Suyash-A/VisualCheXbert.git
