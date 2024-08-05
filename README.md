@@ -64,6 +64,8 @@
 ``` ./scripts/run_generate_input_chexbert.sh```
 ### Generating input data for CheXpert
 ``` ./scripts/run_generate_input_chexpert.sh```
+### Generating input data for VisualCheXbert
+``` ./scripts/run_generate_input_visual_chexbert.sh```
 
 ## Running the models
 ### CheXpert
@@ -100,6 +102,23 @@
 
 ``` conda deactivate```
 
+### VisualCheXbert
+1. Install and create the conda environment
+
+``` conda env create -f models/VisualCheXbert/environment.yml```
+
+2. Activate the conda environment
+
+``` conda activate visualCheXbert```
+
+3. Run the VisualCheXbert model script, where NUMBER_OF_RUNS is the number of runs you want to perform.
+
+``` ./scripts/run_visualchexbert.sh NUMBER_OF_RUNS```
+
+4. Deactivate the conda environment
+s
+``` conda deactivate```
+
 ## Evaluation
 ### Generate ordered list of test set study ids
 ``` ./scripts/run_ordereded_test_ids.sh```
@@ -107,3 +126,5 @@
 ``` ./scripts/run_eval_chexpert.sh```
 ### Evaluate CheXbert
 ``` ./scripts/run_eval_chexbert.sh```
+### Evaluate VisualCheXbert
+``` ./scripts/run_eval_visualchexbert.sh```
