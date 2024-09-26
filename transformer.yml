@@ -1,4 +1,4 @@
-name: labeller
+name: transformer
 channels:
   - pytorch
   - anaconda
